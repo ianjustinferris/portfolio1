@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/style.css" />
+    <link rel="Browser reset" href="/assets/styleReset.css" />
+    <script
+      src="https://kit.fontawesome.com/9268dc0955.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/@glidejs/glide/dist/css/glide.core.min.css"
+    />
+  </head>
+  <body>
+    <div class="mainContainer">
+      <header>
+        <h1>IAN FERRIS</h1>
+        <div class="iconContainer">
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css3"></i>
+          <i class="fa-brands fa-js"></i>
+          <i class="fa-brands fa-react"></i>
+          <i class="fa-brands fa-node"></i>
+          <i class="fa-brands fa-python"></i>
+        </div>
+      </header>
+      <hero>
+        <div class="logo"></div>
+        <h2>
+          <span id="forwardSlash">/</span>SELECTED<br /><span id="W">W</span
+          >ORKS.
+        </h2>
+      </hero>
+
+      <navbar
+        ><h3><a href="/HTML/index.html">PROJECTS</a></h3>
+        <h3><a href="/HTML/contact.html">CONTACT</a></h3>
+        <h3><a href="/HTML/resume.html">RESUME</a></h3>
+        <h3><a href="/HTML/about.html">ABOUT</a></h3>
+        <h3 id="contactIcons">
+          <a href="https://github.com/ianjustinferris" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://codepen.io/IanJustinFerris" target="_blank"
+            ><i class="fa-brands fa-codepen"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/ian-ferris-114b3633/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </h3>
+      </navbar>
+
+      <section class="carousel" aria-label="Gallery">
+        <ol class="carousel__viewport">
+          <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper">
+              <a href="#carousel__slide4" class="carousel__prev"
+                >Go to last slide</a
+              >
+              <a href="#carousel__slide2" class="carousel__next"
+                >Go to next slide</a
+              >
+            </div>
+          </li>
+          <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide1" class="carousel__prev"
+              >Go to previous slide</a
+            >
+            <a href="#carousel__slide3" class="carousel__next"
+              >Go to next slide</a
+            >
+          </li>
+          <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide2" class="carousel__prev"
+              >Go to previous slide</a
+            >
+            <a href="#carousel__slide4" class="carousel__next"
+              >Go to next slide</a
+            >
+          </li>
+          <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide3" class="carousel__prev"
+              >Go to previous slide</a
+            >
+            <a href="#carousel__slide1" class="carousel__next"
+              >Go to first slide</a
+            >
+          </li>
+        </ol>
+        <aside class="carousel__navigation">
+          <ol class="carousel__navigation-list">
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide1" class="carousel__navigation-button"
+                >Go to slide 1</a
+              >
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide2" class="carousel__navigation-button"
+                >Go to slide 2</a
+              >
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide3" class="carousel__navigation-button"
+                >Go to slide 3</a
+              >
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide4" class="carousel__navigation-button"
+                >Go to slide 4</a
+              >
+            </li>
+          </ol>
+        </aside>
+      </section>
+    </div>
+    <script type="text/javascript" src="javaScript/index.js"></script>
+  </body>
+</html>
