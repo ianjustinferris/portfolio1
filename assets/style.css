@@ -1,0 +1,110 @@
+.mainContainer {
+  background-color: #202121;
+  display: flex;
+  border-width: 1px;
+  border-color: red;
+  border-style: dashed;
+  min-height: 100vh;
+  min-width: 98vw;
+  flex-wrap: wrap;
+}
+
+/* .headerHeroContainer {
+  display: flex;
+  flex-direction: column;
+} */
+header {
+  background-color: #202121;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* border-width: 5px;
+  border-color: rgb(225, 226, 223);
+  border-bottom: solid; */
+  height: 10vh;
+  width: 100vw;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+hero {
+  background-color: #202121;
+  display: flex;
+  border-top: 2px solid rgb(225, 226, 223);
+  border-bottom: 4px solid rgb(173, 110, 38);
+  height: 29vh;
+  width: 100vw;
+  /* max-height: 350px; */
+  justify-content: space-between;
+  line-height: 0.85;
+}
+
+navbar {
+  background-color: #202121;
+  color: rgb(225, 226, 223);
+  display: flex;
+  /* border-width: 1px;
+  border-color: blue;
+  border-style: dashed; */
+  width: 20vw;
+  height: 60vh;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+.projects {
+  background-color: #202121;
+  display: flex;
+  /* border-width: 1px;
+  border-color: purple;
+  border-style: dashed; */
+  width: 78.5vw;
+  height: 60vh;
+}
+.iconContainer {
+  margin-top: 5px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  /* color: #4d4e4e; */
+  color: #4d8d8d;
+  font-size: 2vw;
+  width: 20vw;
+}
+/* span {
+  letter-spacing: -0.1em;
+} */
+/* #W {
+  letter-spacing: -0.1em;
+} */
+h1 {
+  font-size: 5vw;
+  margin: 0;
+  margin-top: 3px;
+  padding: 0;
+  border: 0;
+  color: rgb(225, 226, 223);
+  margin-left: 25px;
+}
+
+h2 {
+  font-size: 7.5vw;
+  margin: 0;
+  color: rgb(225, 226, 223);
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin-right: 25px;
+}
+
+h3 {
+  margin-left: 10px;
+  letter-spacing: 1em;
+  font-size: 1.6vw;
+  border-bottom: 2px solid rgb(225, 226, 223);
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
