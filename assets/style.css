@@ -1,11 +1,11 @@
 .mainContainer {
   background-color: #202121;
   display: flex;
-  border-width: 1px;
+  /* border-width: 1px;
   border-color: red;
-  border-style: dashed;
+  border-style: dashed; */
   min-height: 100vh;
-  min-width: 98vw;
+  min-width: 100vw;
   flex-wrap: wrap;
 }
 
@@ -14,7 +14,8 @@
   flex-direction: column;
 } */
 header {
-  background-color: #202121;
+  /* background-color: #202121; */
+  background-color: rgb(10, 11, 14);
   margin: 0;
   padding: 0;
   display: flex;
@@ -69,7 +70,7 @@ navbar {
   margin-right: 5px;
   display: flex;
   justify-content: space-between;
-  align-items: space-between;
+  /* align-items: space-between; */
   /* color: #4d4e4e; */
   color: #4d8d8d;
   font-size: 2vw;
@@ -82,7 +83,8 @@ navbar {
   letter-spacing: -0.1em;
 } */
 h1 {
-  font-size: 5vw;
+  border-right: 5px solid red;
+  font-size: 4vw;
   margin: 0;
   margin-top: 3px;
   padding: 0;
@@ -107,4 +109,9 @@ h3 {
   border-bottom: 2px solid rgb(225, 226, 223);
   font-family: "Kumbh Sans", sans-serif;
   font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: rgb(225, 226, 223);
+  text-decoration: none;
 }
