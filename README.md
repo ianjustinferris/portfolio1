@@ -6,6 +6,8 @@ This is the first iteration for a Portfolio page. Basic UI has been implemented 
 
 https://ianjustinferris.github.io/portfolio1/
 
-## Screenshot
+## Screenshots
 
-![Getting Started](Portfolio_Screenshot.png)
+![Getting Started](PortfolioImage1.png)
+
+![Getting Started](PortfolioImage1mobile.png)
