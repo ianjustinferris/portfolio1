@@ -10,4 +10,4 @@ https://ianjustinferris.github.io/portfolio1/
 
 ![Getting Started](PortfolioImage1.png)
 
-![Getting Started](PortfolioImage1mobile.png)
+![Getting Started](portfolioimage1mobile.png)
