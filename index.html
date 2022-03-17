@@ -20,15 +20,17 @@
   </head>
   <body>
     <div class="mainContainer">
+      <!-- Need extra div to make flex work responsively  -->
+      <div class="headerHeroWrapper"> 
       <header>
         <h1>IAN FERRIS</h1>
         <div class="iconContainer">
-          <i class="fa-brands fa-html5"></i>
-          <i class="fa-brands fa-css3"></i>
-          <i class="fa-brands fa-js"></i>
-          <i class="fa-brands fa-react"></i>
-          <i class="fa-brands fa-node"></i>
-          <i class="fa-brands fa-python"></i>
+          <i id="progIcons" class="fa-brands fa-html5"></i>
+          <i id="progIcons" class="fa-brands fa-css3"></i>
+          <i id="progIcons" class="fa-brands fa-js"></i>
+          <i id="progIcons" class="fa-brands fa-react"></i>
+          <i id="progIcons" class="fa-brands fa-node"></i>
+          <i id="progIcons" class="fa-brands fa-python"></i>
         </div>
       </header>
       <hero>
@@ -38,7 +40,9 @@
           >ORKS.
         </h2>
       </hero>
-
+    </div>
+    <!-- Need extra div to make flex work responsively  -->
+    <div class="navbarContentWrapper">
       <navbar
         ><h3><a href="index.html">PROJECTS</a></h3>
         <h3><a href="contact.html">CONTACT</a></h3>
@@ -70,9 +74,10 @@
           <article id="project3"><img src="p3.jpg"></img></article>
         </article>
         <article id="project4wrapper">
-          <article id="project4"><img src="p4.jpg"></img></article>
+          <article id="project4"><img src="proj4.jpg"></img></article>
         </article>
       </section>
+      </div>
     </div>
     <script type="text/javascript" src="javaScript/index.js"></script>
   </body>
